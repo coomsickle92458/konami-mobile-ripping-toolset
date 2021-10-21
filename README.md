@@ -18,6 +18,8 @@ Only tested on jubeat
 
 ## Technicals/Structure
 
+- Overview on AssetBundleCryptoStream encryption [https://jywhy6.zone/2019/12/21/decrypt-bm2dxum/](https://jywhy6.zone/2019/12/21/decrypt-bm2dxum/)
+
 - Static assets are decrypted using fuck.cs with a hardcoded key/iv
 
 - Original file path (bundlePath) is used for both salt and password 

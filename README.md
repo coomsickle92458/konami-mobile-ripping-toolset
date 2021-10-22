@@ -25,7 +25,7 @@ You will need some reverse engineering and programming knowledge to use them.
 - Grab ablist from `com.konami.*/files/ab/ablist.json`
 - Run `fuck.py` to decrypt ablist.json
 - Run `nigger.py` to dump remote assets
-- Run `nigger.cs` to decrypt music metadata `com.konami.*/files/Play/MusicList`
+- Run `fuck.cs` to decrypt music metadata `com.konami.*/files/Play/MusicList`
 - Run Assets Studio and dump decrypted game assets
 - Run `cum.py` to glue decrypted assets (arts and music) with music metadata (titles and artists)
 

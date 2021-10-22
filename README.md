@@ -16,6 +16,19 @@ A set of tools for ripping music from Konami mobile games
 
 Only tested on jubeat
 
+## How to use
+These scripts are not user friendly and meant to be adjusted based on specific game you are trying to rip music from. 
+
+You will need some reverse engineering and programming knowledge to use them.
+
+- Dump the game files from `/sdcard/Android/data/com.konami.*`
+- Grab ablist from `com.konami.*/files/ab/ablist.json`
+- Run `fuck.py` to decrypt ablist.json
+- Run `nigger.py` to dump remote assets
+- Run `nigger.cs` to decrypt music metadata `com.konami.*/files/Play/MusicList`
+- Run Assets Studio and dump decrypted game assets
+- Run `cum.py` to glue decrypted assets (arts and music) with music metadata (titles and artists)
+
 ## Technicals/Structure
 
 - Overview on AssetBundleCryptoStream encryption [https://jywhy6.zone/2019/12/21/decrypt-bm2dxum/](https://jywhy6.zone/2019/12/21/decrypt-bm2dxum/)
